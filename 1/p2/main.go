@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"bufio"
+	"fmt"
 	"os"
 	"strconv"
 	"strings"
@@ -50,11 +50,11 @@ func similarity_score(left, right []int) int {
 	var sim int = 0
 
 	for i := 0; i < len(left); i++ {
-        for j := 0; j < len(right); j++ {
-            if left[i] == right[j] {
-                sim = sim + left[i] 
-            }
-        }
+		for j := 0; j < len(right); j++ {
+			if left[i] == right[j] {
+				sim = sim + left[i]
+			}
+		}
 	}
 
 	return int(sim)
