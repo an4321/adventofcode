@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"io/ioutil"
 	"log"
 	"math"
+	"os"
 	"strconv"
 	"strings"
 )
@@ -21,7 +21,7 @@ func main() {
 	// }
 
 	// Data
-	content, err := ioutil.ReadFile("../input.txt")
+	content, err := os.ReadFile("../input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
