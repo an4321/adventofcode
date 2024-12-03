@@ -22,7 +22,7 @@ func main() {
 
 	// SOLLUTION: 175015740
 	fmt.Println("PART 1:", part1(data))
-	// SOLLUTION: ?113920528 ?113055497
+	// SOLLUTION: 112272912
 	fmt.Println("PART 2:", part2(data))
 }
 
